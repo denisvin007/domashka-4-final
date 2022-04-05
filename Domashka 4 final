@@ -1,0 +1,24 @@
+using System;
+
+namespace MyFirstApps
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Твое имя?");
+            string firstname;
+            firstname = Console.ReadLine();
+            Console.WriteLine("Твоя Фамилия?");
+            string secondname;
+            secondname = Console.ReadLine();
+            Console.WriteLine("Твой знак зодиака?");
+            string zodiak;
+            zodiak = Console.ReadLine();
+            Console.WriteLine("Сколько тебе лет?");
+            string age;
+            age = Console.ReadLine();
+            Console.WriteLine("Тебя зовут " + firstname + " " + secondname + ", " + "тебе " + age + " лет и ты по знаку зодиака " + zodiak + ".");
+        }
+    }
+}
